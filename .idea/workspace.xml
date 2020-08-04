@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/Data_Traitement/plus_de_buts_en_seconde_mi_temps/Second_temps_object.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/Data_Traitement/plus_de_buts_en_seconde_mi_temps/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/ORM_Pilot/DTIC_mapped_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/DTO_Match_Non_Nuls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/DTO_Match_Non_Nuls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/paris_sportifs_v1.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/paris_sportifs_v1.3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/API_scrap/FDOLog_error_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/API_scrap/FDOLog_error_class.py" afterDir="false" />
@@ -40,7 +41,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../paris_sportifs_v1.3" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fESrdlZeV1iBpV0BYTU1u8Uaji" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
