@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7c06f90-64da-41a8-95b2-2acc214335c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/Data_Traitement/plus_de_buts_en_seconde_mi_temps/Second_temps_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/Data_Traitement/plus_de_buts_en_seconde_mi_temps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/ORM_Pilot/DTIC_mapped_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/paris_sportifs_v1.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/paris_sportifs_v1.3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/API_scrap/FDOLog_error_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/API_scrap/FDOLog_error_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_class/SQL_Comp_Line_Object.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_class/SQL_Line_Object.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_class/SQL_Match_Line_Object.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_class/SQL_Team_Line_Object.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_class/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/Data_Traitement/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/CRUD_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/CRUD_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/Create_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/Create_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/Create_or_Update_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/Create_or_Update_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/Update_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/DAO_functions/Update_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/ORM_Pilot/ORM_mapped_tables.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/ORM_Pilot/ORM_mapped_tables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/ORM_Services/FDO_Tier_One_Data_Load_Or_Refresh.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/app/ORM_Services/FDO_Tier_One_Data_Load_Or_Refresh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_API_scrap/test_FDOLog_error_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_API_scrap/test_FDOLog_error_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_DAO/test_CRUD_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_DAO/test_CRUD_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_DAO/test_Create_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_DAO/test_Create_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_DAO/test_create_update_exception_raiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_DAO/test_create_update_exception_raiser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_SQL_Object_Mapping/test_FDO_matches_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_SQL_Object_Mapping/test_FDO_matches_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_SQL_Tables_Object/test_FDO_get_match_objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/../paris_sportifs_v1.3/test/test_SQL_Tables_Object/test_FDO_get_match_objects.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../paris_sportifs_v1.3" />
+  </component>
+  <component name="ProjectId" id="1fESrdlZeV1iBpV0BYTU1u8Uaji" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Decorateur_class_models" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DAO_functions" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\CompetitionMetadata" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DTO_Match_Non_Nuls">
+    <configuration name="DAO_Match_Non_Nuls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DAO_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DAO_class/DAO_Match_Non_Nuls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DTO_Match_Non_Nuls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/DTO_Match_Non_Nuls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ParserMatchNonNulDecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Decorateur_class_models\ParserMatchNonNulDecorator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ParserMethodMainDecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMethodMainDecorator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unique_comp_matches_filter_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/unique_comp_matches_filter_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DTO_Match_Non_Nuls" />
+        <item itemvalue="Python.unique_comp_matches_filter_class" />
+        <item itemvalue="Python.DAO_Match_Non_Nuls" />
+        <item itemvalue="Python.ParserMatchNonNulDecorator" />
+        <item itemvalue="Python.ParserMethodMainDecorator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7c06f90-64da-41a8-95b2-2acc214335c4" name="Default Changelist" comment="" />
+      <created>1595781959002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595781959002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1595781986561">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595781986561" />
+    <state width="1899" height="219" key="GridCell.Tab.0.bottom" timestamp="1596563630004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="219" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596563630004" />
+    <state width="1259" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
+    <state width="1899" height="219" key="GridCell.Tab.0.center" timestamp="1596563630004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="219" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596563630004" />
+    <state width="1259" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
+    <state width="1899" height="219" key="GridCell.Tab.0.left" timestamp="1596563630004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="219" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596563630004" />
+    <state width="1259" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
+    <state width="1899" height="219" key="GridCell.Tab.0.right" timestamp="1596563630004">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="219" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596563630004" />
+    <state width="1259" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
+    <state x="2575" y="252" width="744" height="536" key="find.popup" timestamp="1596547621506">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2575" y="252" width="744" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596547621506" />
+    <state x="2621" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1596414040636">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2621" y="163" key="refactoring.ChangeSignatureDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596414040636" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596563527228">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596563527228" />
+  </component>
+</project>
