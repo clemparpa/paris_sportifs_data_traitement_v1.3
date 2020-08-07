@@ -1,9 +1,10 @@
-from app.DTO_Parser_class.Decorateur_class_models.ParserMethodMainDecorator import ParseCompModelMainDecorator
-from app.DTO_Parser_class.Filters_class.finished_match_filter_class import FinishedMatchFilter
-from app.DTO_Parser_class.Filters_class.index_nul_match_filter_class import ImplementIndexNulMatchFilter
-from app.DTO_Parser_class.Filters_class.serie_nul_match_filter_class import ImplementSerieNulMatchFilter
-from app.DTO_Parser_class.Filters_class.index_in_home_team_index_filter_class import ImplementHomeTeamIndexFilter
-from app.DTO_Parser_class.Filters_class.unique_comp_matches_filter_class import ImplementCompModelMatches
+from app.DTO_Parser_class.Decorateur_class_models.ParserMainDecorator import ParseCompModelMainDecorator
+from app.DTO_Parser_class.Filters_class_depracated.finished_match_filter_class import FinishedMatchFilter
+from app.DTO_Parser_class.Filters_class_depracated.index_nul_match_filter_class import ImplementIndexNulMatchFilter
+from app.DTO_Parser_class.Filters_class_depracated.serie_nul_match_filter_class import ImplementSerieNulMatchFilter
+from app.DTO_Parser_class.Filters_class_depracated.index_in_home_team_index_filter_class import ImplementHomeTeamIndexFilter
+from app.DTO_Parser_class.Filters_class_depracated.unique_comp_matches_filter_class import ImplementCompModelMatches
+from app.DTO_Parser_class.Filters_class_depracated.team_objects_match_filter_class import ImplementTeamObjectsMatchFilter
 
 
 class MatchNonNulDecorator(ParseCompModelMainDecorator):
@@ -15,4 +16,5 @@ class MatchNonNulDecorator(ParseCompModelMainDecorator):
         Ce décorateur enleve les matchs non terminés du comp_model et envoie un nouvel objet comp_model parsé
         a l'attribut "__parsed_comp_model__" """
 
-    _filter_list = [FinishedMatchFilter, ImplementIndexNulMatchFilter, ImplementHomeTeamIndexFilter, ImplementSerieNulMatchFilter, ImplementCompModelMatches]
+    _filter_list = [FinishedMatchFilter, ImplementIndexNulMatchFilter, ImplementHomeTeamIndexFilter,
+                    ImplementTeamObjectsMatchFilter, ImplementSerieNulMatchFilter, ImplementCompModelMatches]

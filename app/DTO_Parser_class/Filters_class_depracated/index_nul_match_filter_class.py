@@ -1,6 +1,5 @@
-from app.DTO_Parser_class.Filters_class.Abstract_filter_class import AbstractCompModelFilter
-from app.DAO_class.DAO_Match_Non_Nuls import TeamNonNulModel, MatchNonNulModel, CompNonNulModel
-from app.DAO_functions import CRUD_functions as Crud
+from app.DTO_Parser_class.Filters_class_depracated.Abstract_filter_class import AbstractCompModelFilter
+
 
 
 class ImplementIndexNulMatchFilter(AbstractCompModelFilter):
@@ -12,10 +11,10 @@ class ImplementIndexNulMatchFilter(AbstractCompModelFilter):
 
     def filter(self):
 
-        def team_match_parser(team_model: TeamNonNulModel):
+        def team_match_parser(team_model):
 
 
-            def match_filter(match_model: MatchNonNulModel):
+            def match_filter(match_model):
                 if hasattr(match_model.score, "nul_index__"):
                     if match_model.score.winner == 'DRAW':
                         match_model.score.nul_index__ = 1
@@ -40,13 +39,10 @@ class ImplementIndexNulMatchFilter(AbstractCompModelFilter):
 
 
         ret_comp_model_dict = {
-            "id": self.comp_model.id,
             "teams": list(map(team_match_parser, self.comp_model.teams)),
         }
 
-
-        ret_comp_model = self.comp_model.__class__(**ret_comp_model_dict)
-        self.comp_model = ret_comp_model
+        self.comp_model = self.comp_model.copy(update=ret_comp_model_dict)
 
 
 

@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 
 
+
 class ParseCompModelMainDecorator(object):
     """Le décorateur censé parser les données s'il est appelé dans une methode:
         l'attribut 'self._comp_model_field' doit correspondre a l'attribut de __comp_model__ de la metaclasse MetaParseMatch
@@ -19,11 +20,6 @@ class ParseCompModelMainDecorator(object):
         self._comp_model_field = "__comp_model__"
         self._parsed_comp_model_field = "__parsed_comp_model__"
         self._is_parsed_field = "__is_parsed__"
-
-
-    def __call__(self, comp_id):
-        self.comp_id = comp_id
-
 
 
 

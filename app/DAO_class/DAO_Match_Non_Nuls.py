@@ -23,6 +23,9 @@ class MatchNonNulModel(BaseModel):
     home_team_id: int
     away_team_id: int
 
+    home_team_info: Any
+    away_team_info: Any
+
 
     in_home_team_index__: bool = False
 

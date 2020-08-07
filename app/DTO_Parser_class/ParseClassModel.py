@@ -1,4 +1,3 @@
-from app.DAO_class.DAO_FineDataModel import FDMCompModel
 from pydantic import BaseModel
 
 
@@ -10,7 +9,11 @@ class ParseBaseModel:
         nécessaire de parser la donnée ou non
         tous ces champ seront hérités a la classe qui doit être parsée"""
 
-    __comp_model__: BaseModel.__subclasses__()
-    __parsed_comp_model__: BaseModel.__subclasses__()
-    __is_parsed__: bool = False
+
+    def __init__(self, comp_id):
+
+        self.comp_id = comp_id
+        self.comp_model__: BaseModel.__subclasses__() = None
+        self.parsed_comp_model__: BaseModel.__subclasses__() = None
+        self.is_parsed__: bool = False
 

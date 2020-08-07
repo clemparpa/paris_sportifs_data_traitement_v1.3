@@ -1,4 +1,4 @@
-from app.DTO_Parser_class.Filters_class.Abstract_filter_class import AbstractCompModelFilter
+from app.DTO_Parser_class.Filters_class_depracated.Abstract_filter_class import AbstractCompModelFilter
 
 
 
@@ -30,12 +30,11 @@ class FinishedMatchFilter(AbstractCompModelFilter):
             return ret_team_model
 
         ret_comp_model_dict = {
-            "id": self.comp_model.id,
             "teams": list(map(team_match_parser, self.comp_model.teams)),
         }
 
-        ret_comp_model = self.comp_model.__class__(**ret_comp_model_dict)
-        self.comp_model = ret_comp_model
+
+        self.comp_model = self.comp_model.copy(update=ret_comp_model_dict)
 
 
     def validator(self):

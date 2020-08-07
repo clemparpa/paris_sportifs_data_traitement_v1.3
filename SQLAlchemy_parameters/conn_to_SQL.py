@@ -11,7 +11,7 @@ class LocalDb:
     host = 'localhost'
     port = '3306'
     user = 'root'
-    password = '1Clement'
+    password = 'admin'
     name = 'paris_sportifsv1.3'
 
     #url servant a la connexion à la base

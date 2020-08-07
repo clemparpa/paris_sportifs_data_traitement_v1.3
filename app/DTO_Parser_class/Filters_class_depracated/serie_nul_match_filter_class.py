@@ -1,6 +1,5 @@
 from typing import List
-from app.DAO_class.DAO_Match_Non_Nuls import MatchNonNulModel
-from app.DTO_Parser_class.Filters_class.Abstract_filter_class import AbstractCompModelFilter
+from app.DTO_Parser_class.Filters_class_depracated.Abstract_filter_class import AbstractCompModelFilter
 import operator
 
 
@@ -21,7 +20,7 @@ class ImplementSerieNulMatchFilter(AbstractCompModelFilter):
             match_team_list: List = copied_team_model.played_as_home_matches + copied_team_model.played_as_away_matches
             match_team_list.sort(key=operator.attrgetter('utc_date'))
 
-            def match_filter(match_model: MatchNonNulModel, value):
+            def match_filter(match_model, value):
                 retour_match = match_model.copy()
                 if match_model.in_home_team_index__:
                     retour_match.score.home_serie_nul_ = value
@@ -69,12 +68,10 @@ class ImplementSerieNulMatchFilter(AbstractCompModelFilter):
             return ret_team_model
 
         ret_comp_model_dict = {
-            "id": self.comp_model.id,
             "teams": list(map(team_match_parser, self.comp_model.teams)),
         }
 
-        ret_comp_model = self.comp_model.__class__(**ret_comp_model_dict)
-        self.comp_model = ret_comp_model
+        self.comp_model = self.comp_model.copy(update=ret_comp_model_dict)
 
 
     def validator(self):
