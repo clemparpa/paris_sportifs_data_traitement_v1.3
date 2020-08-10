@@ -29,9 +29,9 @@ class CompNonNulsParsedModel(ParseBaseModel):
     @MatchNonNulDecorator
     def test(self):
         pass
-        #comp_model = self.parsed_comp_model__
-        #for i in range(20):
-        #print(comp_model.matches_[i])
+        comp_model = self.parsed_comp_model__
+        for i in range(20):
+            print(comp_model.matches_[i])
 
 
 

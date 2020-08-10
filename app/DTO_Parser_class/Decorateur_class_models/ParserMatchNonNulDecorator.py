@@ -1,10 +1,10 @@
+from app.DTO_Parser_class.Filter_class.Finished_Match_Filter_class import FinishedMatchCompModelFilter
+from app.DTO_Parser_class.Filter_class.Implement_Serie_Nul_Match_Filter_class import ImplementSerieNulCompModelFilter
+from app.DTO_Parser_class.Filter_class.Implement_Team_Info_Filter_Class import ImplementTeamInfoCompModelFilter
+from app.DTO_Parser_class.Filter_class.Implement_index_nul_Filter_class import ImplementIndexNulCompModelFilter
+from app.DTO_Parser_class.Filter_class.Implement_In_Home_Team_Index_Filter_Class import ImplementInHomeTeamIndexCompModelFilter
+from app.DTO_Parser_class.Filter_class.Implement_CompNonNul_matches_Filter_Class import ImplementMatchesCompModelFilter
 from app.DTO_Parser_class.Decorateur_class_models.ParserMainDecorator import ParseCompModelMainDecorator
-from app.DTO_Parser_class.Filters_class_depracated.finished_match_filter_class import FinishedMatchFilter
-from app.DTO_Parser_class.Filters_class_depracated.index_nul_match_filter_class import ImplementIndexNulMatchFilter
-from app.DTO_Parser_class.Filters_class_depracated.serie_nul_match_filter_class import ImplementSerieNulMatchFilter
-from app.DTO_Parser_class.Filters_class_depracated.index_in_home_team_index_filter_class import ImplementHomeTeamIndexFilter
-from app.DTO_Parser_class.Filters_class_depracated.unique_comp_matches_filter_class import ImplementCompModelMatches
-from app.DTO_Parser_class.Filters_class_depracated.team_objects_match_filter_class import ImplementTeamObjectsMatchFilter
 
 
 class MatchNonNulDecorator(ParseCompModelMainDecorator):
@@ -16,5 +16,5 @@ class MatchNonNulDecorator(ParseCompModelMainDecorator):
         Ce décorateur enleve les matchs non terminés du comp_model et envoie un nouvel objet comp_model parsé
         a l'attribut "__parsed_comp_model__" """
 
-    _filter_list = [FinishedMatchFilter, ImplementIndexNulMatchFilter, ImplementHomeTeamIndexFilter,
-                    ImplementTeamObjectsMatchFilter, ImplementSerieNulMatchFilter, ImplementCompModelMatches]
+    _filter_list = [FinishedMatchCompModelFilter, ImplementIndexNulCompModelFilter, ImplementInHomeTeamIndexCompModelFilter,
+                    ImplementTeamInfoCompModelFilter, ImplementSerieNulCompModelFilter, ImplementMatchesCompModelFilter]

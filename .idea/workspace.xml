@@ -2,27 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c06f90-64da-41a8-95b2-2acc214335c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMainDecorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/filter_test_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/Abstract_filter_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/team_objects_match_filter_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DTO_class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Implement_CompNonNul_matches_Filter_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Implement_In_Home_Team_Index_Filter_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Implement_Serie_Nul_Match_Filter_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Implement_Team_Info_Filter_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Implement_index_nul_Filter_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_DTO_Parser_class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_DTO_Parser_class/test_Filter_class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_DTO_Parser_class/test_Filter_class/test_CompNonNul_matches_Filter_Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_DTO_Parser_class/test_Filter_class/test_Filter_Main_Class.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQLAlchemy_parameters/conn_to_SQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SQLAlchemy_parameters/conn_to_SQL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DAO_class/DAO_Match_Non_Nuls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DAO_class/DAO_Match_Non_Nuls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/DTO_Match_Non_Nuls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_class/DTO_Match_Non_Nuls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMainDecorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMainDecorator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMatchNonNulDecorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMatchNonNulDecorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMethodMainDecorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMethodMainDecorator_static_deprecated.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/Abstract_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Abstract_filter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/finished_match_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/finished_match_filter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/index_in_home_team_index_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/index_in_home_team_index_filter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/index_nul_match_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/index_nul_match_filter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/serie_nul_match_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/serie_nul_match_filter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/unique_comp_matches_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/unique_comp_matches_filter_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/ParseClassModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/ParseClassModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMethodMainDecorator_static_deprecated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Abstract_filter_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Filter_Main_Class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/filter_test_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/Abstract_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Finished_Match_Filter_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/finished_match_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/index_in_home_team_index_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/index_nul_match_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/serie_nul_match_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/team_objects_match_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class_depracated/unique_comp_matches_filter_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DTO_class/DTO_Match_Non_Nuls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/DTO_class/DTO_Match_Non_Nuls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,41 +54,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_class" />
-      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Decorateur_class_models" />
-      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DAO_functions" />
-      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Filter_class" />
       <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3" />
       <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\CompetitionMetadata" />
       <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\test" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Filter_class" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_class" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Decorateur_class_models" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DAO_functions" />
+      <recent name="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Abstract_filter_class">
-    <configuration name="Abstract_filter_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="paris_sportifs_data_traitement_v1.3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Abstract_filter_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_CompNonNul_matches_Filter_Class">
     <configuration name="DTO_Match_Non_Nuls (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="paris_sportifs_data_traitement_v1.3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,49 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ParserMatchNonNulDecorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="paris_sportifs_data_traitement_v1.3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Decorateur_class_models/ParserMatchNonNulDecorator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="del_nul_index_match_filter_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="paris_sportifs_data_traitement_v1.3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Filters_class/del_nul_index_match_filter_class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="filter_test_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Filter_Main_Class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="paris_sportifs_data_traitement_v1.3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +102,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/filter_test_class.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\app\DTO_Parser_class\Filter_class\Filter_Main_Class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Finished_Match_Filter_class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Finished_Match_Filter_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Implement_CompNonNul_matches_Filter_Class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/DTO_Parser_class/Filter_class/Implement_CompNonNul_matches_Filter_Class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_CompNonNul_matches_Filter_Class" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="paris_sportifs_data_traitement_v1.3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/test_DTO_Parser_class/test_Filter_class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\talal\Desktop\paris_sportifs_data_traitement_v1.3\test\test_DTO_Parser_class\test_Filter_class\test_CompNonNul_matches_Filter_Class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Abstract_filter_class" />
-        <item itemvalue="Python.filter_test_class" />
+        <item itemvalue="Python.test_CompNonNul_matches_Filter_Class" />
         <item itemvalue="Python.DTO_Match_Non_Nuls (1)" />
-        <item itemvalue="Python.ParserMatchNonNulDecorator" />
-        <item itemvalue="Python.del_nul_index_match_filter_class" />
+        <item itemvalue="Python.Implement_CompNonNul_matches_Filter_Class" />
+        <item itemvalue="Python.Finished_Match_Filter_class" />
+        <item itemvalue="Python.Filter_Main_Class" />
       </list>
     </recent_temporary>
   </component>
@@ -198,45 +202,71 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596715372007" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1595781986561">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1596846266238">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595781986561" />
-    <state width="1899" height="326" key="GridCell.Tab.0.bottom" timestamp="1596764005330">
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596846266238" />
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom" timestamp="1597056235723">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="104" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596846478941" />
+    <state width="1899" height="246" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596966354712" />
+    <state width="1259" height="112" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597056235723" />
+    <state width="1259" height="112" key="GridCell.Tab.0.center" timestamp="1597056235723">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="104" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596846478941" />
+    <state width="1899" height="246" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596966354712" />
+    <state width="1259" height="112" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597056235723" />
+    <state width="1259" height="112" key="GridCell.Tab.0.left" timestamp="1597056235722">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="104" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596846478941" />
+    <state width="1899" height="246" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596966354712" />
+    <state width="1259" height="112" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597056235722" />
+    <state width="1259" height="112" key="GridCell.Tab.0.right" timestamp="1597056235723">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="104" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596846478941" />
+    <state width="1899" height="246" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596966354712" />
+    <state width="1259" height="112" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597056235723" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1596902520309">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596764005330" />
-    <state width="1259" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
-    <state width="1899" height="326" key="GridCell.Tab.0.center" timestamp="1596764005330">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596902520309" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1596902520308">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596764005330" />
-    <state width="1259" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
-    <state width="1899" height="326" key="GridCell.Tab.0.left" timestamp="1596764005330">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596902520308" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1596902520308">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596764005330" />
-    <state width="1259" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
-    <state width="1899" height="326" key="GridCell.Tab.0.right" timestamp="1596764005330">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596902520308" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1596902520309">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="326" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596764005330" />
-    <state width="1259" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596465476325" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596902520309" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596652611220">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596652611220" />
-    <state x="2575" y="252" width="744" height="536" key="find.popup" timestamp="1596547621506">
+    <state x="1920" y="0" width="1010" height="536" maximized="true" key="dock-window-1" timestamp="1596847478047">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="1920" y="0" width="1010" height="536" maximized="true" key="dock-window-1/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596847478047" />
+    <state x="437" y="74" width="739" height="606" key="find.popup" timestamp="1596846557437">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="74" width="739" height="606" key="find.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1596846557437" />
     <state x="2575" y="252" width="744" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596547621506" />
     <state x="2621" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1596414040636">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2621" y="163" key="refactoring.ChangeSignatureDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596414040636" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596563527228">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1596897261351">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596563527228" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596879623612" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1596897261351" />
   </component>
 </project>

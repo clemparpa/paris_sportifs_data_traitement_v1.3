@@ -36,7 +36,7 @@ class ParseCompModelMainDecorator(object):
     def apply_filters(self, instance, comp_model, _parsed_comp_model_field):
         ret_model = comp_model.copy()
         for filters in self._filter_list:
-            ret_model = filters(ret_model).get_filtered_and_validated()
+            ret_model = filters(ret_model).filter()
 
         setattr(instance, _parsed_comp_model_field, ret_model)
 
@@ -47,10 +47,10 @@ def check_field_error_raiser(instance, _field: str, _field_type_list):
     and if the type of the element in the _field is the wrong or not """
 
     if not hasattr(instance, _field):
-        raise AttributeError(f"L'attribut de class '{_field}' censé définir l'objet a parser n'est pas défini")
+        raise AttributeError(f"L'attribut de class '{_field}' censé définir l'objet a parser n'est pas défini")  # pragma: no cover
     else:
         if not type(getattr(instance, _field)) in _field_type_list:
-            raise ValueError(f"le champ {_field} n'est pas du type demandé: l'attribut {_field} doit etre une instance "
+            raise ValueError(f"le champ {_field} n'est pas du type demandé: l'attribut {_field} doit etre une instance "  # pragma: no cover
                              f" d'une subclasse CompModel de la classe 'BaseModel' ")
 
 
@@ -61,4 +61,4 @@ def check_is_parsed_error_raiser(instance, _is_parsed_field):
         return boolean_rep
 
     else:
-        raise AttributeError(f"object {instance} of class {instance.__class__} do not have attr {_is_parsed_field}, give it")
+        raise AttributeError(f"object {instance} of class {instance.__class__} do not have attr {_is_parsed_field}, give it")  # pragma: no cover
