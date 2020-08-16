@@ -25,12 +25,13 @@ class ParseCompModelMainDecorator(object):
         """Support instance methods."""
         return partial(self.__call__, obj)
 
+
     def __call__(self, instance):
         check_field_error_raiser(instance, self._comp_model_field, BaseModel.__subclasses__())
         if not check_is_parsed_error_raiser(instance, self._is_parsed_field):
             self.apply_filters(instance, getattr(instance, self._comp_model_field), self._parsed_comp_model_field)
 
-        self._func(instance)
+        return self._func(instance)
 
 
     def apply_filters(self, instance, comp_model, _parsed_comp_model_field):
