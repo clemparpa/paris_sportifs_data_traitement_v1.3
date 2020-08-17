@@ -1,7 +1,7 @@
 import operator
 import itertools
 import pandas as pd
-from utils.model_params_seeker.MainDataModel import MainDataModel
+from app.Model_Seeker.model_params_seeker.MainDataModel import MainDataModel
 
 
 def check_parameter_in_model(dataframe: pd.DataFrame, params: dict):
@@ -40,7 +40,7 @@ def get_params_list(parameters: dict):
 
 
 
-class ParamSeeker:
+class ParamSeeker:  # pragma: no cover
 
 
     def get_best_model(self, sample_required: int) -> dict:

@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, ForeignKey, DateTime, String, UniqueConstraint
 from sqlalchemy.orm import relationship
 from SQLAlchemy_parameters import conn_to_SQL as conn
-from lib import date_convert
+from utils import date_convert
 
 
 class TableInfoMatch(conn.LocalDb.Base):
